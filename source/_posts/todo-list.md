@@ -1,8 +1,7 @@
 ---
 title: 个人职业发展历程 TODOLIST
-year: 2018
-month: 8
-day: 13
+categories: [职业规划]
+date: 2018-8-13
 ---
 
 持续更新中...
