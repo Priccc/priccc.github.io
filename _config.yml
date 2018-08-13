@@ -8,6 +8,7 @@ subtitle:
 description:
 keywords:
 avatar: /images/avatar.jpg
+favicon: /images/favicon.ico
 author: 张磊
 language:
 timezone:
@@ -74,7 +75,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: my-theme
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

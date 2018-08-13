@@ -6,7 +6,7 @@
       <title>个人职业发展历程 TODOLIST</title>
       <link href="/2018/08/13/todo-list/"/>
       <url>/2018/08/13/todo-list/</url>
-      <content type="html"><![CDATA[<p>持续更新中…</p><ul><li style="list-style: none"><input type="checkbox"> 个人静态博客</li><li style="list-style: none"><input type="checkbox"> 解码视频并渲染成字符视频</li><li style="list-style: none"><input type="checkbox"> 个人照片视频库 （IOS APP）</li></ul>]]></content>
+      <content type="html"><![CDATA[<p>持续更新中…</p><ul><li style="list-style: none"><input type="checkbox" checked> 个人静态博客<blockquote><p>基础搭建已完成，待优化项：</p><ul><li style="list-style: none"><input type="checkbox"> 添加评论功能</li><li style="list-style: none"><input type="checkbox"> 关于页面编写</li><li style="list-style: none"><input type="checkbox"> 持续优化…</li></ul></blockquote></li><li style="list-style: none"><input type="checkbox"> 解码视频并渲染成字符视频</li><li style="list-style: none"><input type="checkbox"> 个人照片视频库 （IOS APP）</li></ul>]]></content>
       
       <categories>
           

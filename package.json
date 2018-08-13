@@ -23,7 +23,7 @@
     "hexo-server": "^0.2.0"
   },
   "scripts": {
-    "generate": "hexo generate && cp -r ./.deploy_git ./../public",
+    "generate": "hexo generate && cp -rf ./.deploy_git ./../public",
     "push": "cd ../public && git add . && git commit -m 'deploy blog' && git push -f",
     "deploy": "npm run generate && npm run push"
   }

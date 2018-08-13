@@ -34,18 +34,38 @@
 		height: @header-height;
 		.enable-trans();
 		margin:0 28px;
-		ul > li > a{
+
+		ul > li > a {
 			.enable-trans();
 			display: block;
 			color: fade(@white,70%);
 			padding: 0 @gap / 2;
+			padding-left: 34px;
+
 			&:hover,&.active{
 				color: @white;
 			}
 		}
+
+		a.nav-home {
+			background: url('../images/home.png') 8px center no-repeat;
+			background-size: 24px 24px;
+		}
+
+		a.nav-archives {
+			background: url('../images/archives.png') 8px center no-repeat;
+			background-size: 24px 24px;
+		}
+
+		a.nav-about {
+			background: url('../images/about.png') 8px center no-repeat;
+			background-size: 24px 24px;
+		}
+
 		@media(max-width: @on-phone){
 			display:none;
 		}
+
 		.underline{
 			transition: all .15s ease-out;
 			position: absolute;
