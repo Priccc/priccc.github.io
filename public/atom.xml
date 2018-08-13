@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Priccc</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://priccc.github.io/"/>
+  <updated>2018-08-13T03:28:40.837Z</updated>
+  <id>https://priccc.github.io/</id>
+  
+  <author>
+    <name>Lei Zhang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人职业发展历程 TODOLIST</title>
+    <link href="https://priccc.github.io/2018/08/13/todo-list/"/>
+    <id>https://priccc.github.io/2018/08/13/todo-list/</id>
+    <published>2018-08-13T03:28:40.837Z</published>
+    <updated>2018-08-13T03:28:40.837Z</updated>
+    
+    <content type="html"><![CDATA[<p>持续更新中…</p><ul><li style="list-style: none"><input type="checkbox"> 个人静态博客</li><li style="list-style: none"><input type="checkbox"> 解码视频并渲染成字符视频</li><li style="list-style: none"><input type="checkbox"> 个人照片视频库 （IOS APP）</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;持续更新中…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot;&gt; 个人静态博客&lt;/li&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot;&gt; 解码视
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
