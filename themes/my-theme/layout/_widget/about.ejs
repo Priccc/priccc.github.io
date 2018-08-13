@@ -1,0 +1,22 @@
+<section class='m_widget about'>
+<% if(config.avatar) { %>
+<div class="avatar-box">
+  <img class='avatar waves-image' src='<%= url_for(config.avatar) %>' />
+</div>
+<%} %>
+<div class='header'><%=config.author %></div>
+<div class='content'>
+  <div class='desc'>永远也不要丢失一颗挨折腾的心</div>
+  <div class="links">
+    <% if (theme.social) { %>
+      <% theme.social.forEach(function(value, key) {
+            if (value.url && value.slug) { %>
+        <a href="<%= value.url %>" class="social <%= value.slug %>"
+          target="_blank" rel="external">
+          <span class="icon icon-<%= value.slug %>"></span>
+        </a>
+      <% } }); %>
+    <% } %>
+  </div>
+</div>
+</section>
