@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>个人职业发展历程 TODOLIST | Priccc</title>
+  <title>Category: javascript | Priccc</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <meta name="HandheldFriendly" content="True" />
@@ -12,17 +12,13 @@
   <link rel="shortcut icon" href="/images/favicon.ico">
   <link rel="alternate" href="/atom.xml" title="Priccc">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="持续更新中…   个人静态博客 基础搭建已完成，待优化项：   添加评论功能  关于页面编写  持续优化…     利用 canvas 实现字符流视频☞  个人照片视频库 （IOS APP）">
-<meta property="og:type" content="article">
-<meta property="og:title" content="个人职业发展历程 TODOLIST">
-<meta property="og:url" content="https://priccc.github.io/2018/08/13/todo-list/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Priccc">
+<meta property="og:url" content="https://priccc.github.io/categories/javascript/index.html">
 <meta property="og:site_name" content="Priccc">
-<meta property="og:description" content="持续更新中…   个人静态博客 基础搭建已完成，待优化项：   添加评论功能  关于页面编写  持续优化…     利用 canvas 实现字符流视频☞  个人照片视频库 （IOS APP）">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-14T03:33:06.654Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="个人职业发展历程 TODOLIST">
-<meta name="twitter:description" content="持续更新中…   个人静态博客 基础搭建已完成，待优化项：   添加评论功能  关于页面编写  持续优化…     利用 canvas 实现字符流视频☞  个人照片视频库 （IOS APP）">
+<meta name="twitter:title" content="Priccc">
     
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -123,71 +119,124 @@
   <div class="l_body">
     <div class='container clearfix'>
       <div class='l_main'>
-        <article id="post-todo-list"
-  class="post white-box article-type-post"
-  itemscope itemprop="blogPost">
-	<section class='meta'>
-	<h2 class="title">
-  	<a href="/2018/08/13/todo-list/">
-    	个人职业发展历程 TODOLIST
-    </a>
-  </h2>
-	<time>
-	  2018-08-13
-	</time>
+        
+  <script>
+    window.subData= { title:'Category : javascript'}
+  </script>
+
+<section class="post-list">
 	
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2018/08/14/string-video/">
+        利用 canvas 实现字符流视频
+      </a>
+    </h2>
+    
+    <time>
+      2018-08-14
+    </time>
+		
     
     <div class='cats'>
-        <a href="/categories/职业规划/">职业规划</a>
+        <a href="/categories/javascript/">javascript</a>
     </div>
 
-	</section>
-	
-		<section class="toc-wrapper"></section>
-	
-	<section class="article typo">
-  	<div class="article-entry" itemprop="articleBody">
-    	<p>持续更新中…</p>
-<ul>
-<li style="list-style: none"><input type="checkbox" checked> 个人静态博客<blockquote>
-<p>基础搭建已完成，待优化项：</p>
-<ul>
-<li style="list-style: none"><input type="checkbox"> 添加评论功能</li>
-<li style="list-style: none"><input type="checkbox"> 关于页面编写</li>
-<li style="list-style: none"><input type="checkbox"> 持续优化…</li>
-</ul>
+  </section>
+  <section class="article typo">
+	  <p>最近刷抖音越来越频繁，在里面页发现了不少技术相关的视频，今天这里说到的<em>字符流视频</em>就是其中之一</p>
+<p>一开始我也是没有思路的，毕竟 canvas 基本没用过，只能在 百度、Google 上寻求答案…</p>
+<h3 id="实现思路"><a href="#实现思路" class="headerlink" title="实现思路"></a>实现思路</h3><ol>
+<li>利用 <code>input</code> 获取到视频，并转成 <code>HTMLVideDOM</code></li>
+<li>将视频通过 <code>drawImage()</code> 画到 canvas 上，并通过 <code>getImageData()</code> 获取画布上的信息，计算灰度值，并替换成字符，越深替换的字符越密集</li>
+<li>将替换好的字符视频画到画布上</li>
+<li>更改视频的 <code>currentTime</code> 属性，通过 <code>window.requestAnimationFrame()</code> 重复 2、3 步</li>
+</ol>
+<blockquote>
+<p>思路借鉴自 <a href="https://juejin.im/post/5b5ec60d6fb9a04f8a219a1d" target="_blank" rel="noopener">js视频转字符画 —— 写一个属于自己的字符转换器</a></p>
 </blockquote>
-</li>
-<li style="list-style: none"><input type="checkbox" checked> <a href="/2018/08/14/string-video/" title="利用 canvas 实现字符流视频☞">利用 canvas 实现字符流视频☞</a></li>
-<li style="list-style: none"><input type="checkbox"> 个人照片视频库 （IOS APP）</li>
-</ul>
 
-  	</div>
-	  
-		
-	
-		<div class="art-item-footer">
-				
-					<span class="art-item-left"><i class="icon icon-chevron-thin-left"></i>prev：<a href="/2018/08/14/string-video/" rel="prev"  title="利用 canvas 实现字符流视频">
-						利用 canvas 实现字符流视频 
-					</a></span>
-				
-				
-		</div>
-	
-	</section>
-	
+    
+	  <div class="readmore">
+      <a href="/2018/08/14/string-video/">Read More</a>
+    </div>
+    
+    
+    
+	  <div class="full-width auto-padding tags">
+      
+        <a href="/tags/抖音/">抖音</a>
+      
+        <a href="/tags/canvas/">canvas</a>
+      
+        <a href="/tags/javascript/">javascript</a>
+      
+	  </div>
+    
+  </section>
 </article>
-<script>
-	window.subData = {
-		title: '个人职业发展历程 TODOLIST',
-		tools: true
-	}
-</script>
+    </div>
+  
+</section>
+
 
       </div>
       <aside class='l_side'>
         
+
+  <section class='m_widget about'>
+
+<div class="avatar-box">
+  <img class='avatar waves-image' src='/images/avatar.jpg' />
+</div>
+
+<div class='header'>张磊</div>
+<div class='content'>
+  <div class='desc'>永远也不要丢失一颗挨折腾的心</div>
+  <div class="links">
+    
+      
+        <a href="https://github.com/priccc" class="social github"
+          target="_blank" rel="external">
+          <span class="icon icon-github"></span>
+        </a>
+      
+    
+  </div>
+</div>
+</section>
+
+  
+
+  <section class='m_widget categories'>
+<div class='header'>分类</div>
+<div class='content'>
+    
+    <ul class="entry">
+    
+        <li><a class="flat-box" href="/categories/javascript/"><div class='name'>javascript</div><div class='badget'>1</div></a></li>
+    
+        <li><a class="flat-box" href="/categories/职业规划/"><div class='name'>职业规划</div><div class='badget'>1</div></a></li>
+    
+    </ul>
+    
+</div>
+</section>
+
+  
+<div class="m_widget tagcloud">
+    <div class="header">标签</div>
+    <div class='content'>
+        <a href="/tags/canvas/" style="font-size: 14px; color: #808080">canvas</a> <a href="/tags/javascript/" style="font-size: 14px; color: #808080">javascript</a> <a href="/tags/抖音/" style="font-size: 14px; color: #808080">抖音</a>
+    </div>
+</div>
+
+
+
+
       </aside>
       <script>setLoadingBarProgress(60);</script>
     </div>

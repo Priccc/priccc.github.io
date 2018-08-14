@@ -132,6 +132,60 @@
   <section class="meta">
     
     <h2 class="title">
+      <a href="/2018/08/14/string-video/">
+        利用 canvas 实现字符流视频
+      </a>
+    </h2>
+    
+    <time>
+      2018-08-14
+    </time>
+		
+    
+    <div class='cats'>
+        <a href="/categories/javascript/">javascript</a>
+    </div>
+
+  </section>
+  <section class="article typo">
+	  <p>最近刷抖音越来越频繁，在里面页发现了不少技术相关的视频，今天这里说到的<em>字符流视频</em>就是其中之一</p>
+<p>一开始我也是没有思路的，毕竟 canvas 基本没用过，只能在 百度、Google 上寻求答案…</p>
+<h3 id="实现思路"><a href="#实现思路" class="headerlink" title="实现思路"></a>实现思路</h3><ol>
+<li>利用 <code>input</code> 获取到视频，并转成 <code>HTMLVideDOM</code></li>
+<li>将视频通过 <code>drawImage()</code> 画到 canvas 上，并通过 <code>getImageData()</code> 获取画布上的信息，计算灰度值，并替换成字符，越深替换的字符越密集</li>
+<li>将替换好的字符视频画到画布上</li>
+<li>更改视频的 <code>currentTime</code> 属性，通过 <code>window.requestAnimationFrame()</code> 重复 2、3 步</li>
+</ol>
+<blockquote>
+<p>思路借鉴自 <a href="https://juejin.im/post/5b5ec60d6fb9a04f8a219a1d" target="_blank" rel="noopener">js视频转字符画 —— 写一个属于自己的字符转换器</a></p>
+</blockquote>
+
+    
+	  <div class="readmore">
+      <a href="/2018/08/14/string-video/">Read More</a>
+    </div>
+    
+    
+    
+	  <div class="full-width auto-padding tags">
+      
+        <a href="/tags/抖音/">抖音</a>
+      
+        <a href="/tags/canvas/">canvas</a>
+      
+        <a href="/tags/javascript/">javascript</a>
+      
+	  </div>
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
       <a href="/2018/08/13/todo-list/">
         个人职业发展历程 TODOLIST
       </a>
@@ -159,7 +213,7 @@
 </ul>
 </blockquote>
 </li>
-<li style="list-style: none"><input type="checkbox"> 解码视频并渲染成字符视频</li>
+<li style="list-style: none"><input type="checkbox" checked> <a href="/2018/08/14/string-video/" title="利用 canvas 实现字符流视频☞">利用 canvas 实现字符流视频☞</a></li>
 <li style="list-style: none"><input type="checkbox"> 个人照片视频库 （IOS APP）</li>
 </ul>
 
@@ -209,6 +263,8 @@
     
     <ul class="entry">
     
+        <li><a class="flat-box" href="/categories/javascript/"><div class='name'>javascript</div><div class='badget'>1</div></a></li>
+    
         <li><a class="flat-box" href="/categories/职业规划/"><div class='name'>职业规划</div><div class='badget'>1</div></a></li>
     
     </ul>
@@ -217,6 +273,13 @@
 </section>
 
   
+<div class="m_widget tagcloud">
+    <div class="header">标签</div>
+    <div class='content'>
+        <a href="/tags/canvas/" style="font-size: 14px; color: #808080">canvas</a> <a href="/tags/javascript/" style="font-size: 14px; color: #808080">javascript</a> <a href="/tags/抖音/" style="font-size: 14px; color: #808080">抖音</a>
+    </div>
+</div>
+
 
 
 
