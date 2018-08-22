@@ -83,3 +83,12 @@ deploy:
   type: git
   repo: git@github.com:Priccc/priccc.github.io.git
   branch: master
+
+gitalkConfig:
+  clientID: '6942be9c2926f995a7d9'
+  clientSecret: 'c3125cb716d410171a31b17aba7918c818e0f3e1'
+  repo: 'priccc.github.io'
+  owner: 'Priccc'
+  admin: ['Priccc']
+  id: 'window.location.pathname'
+  distractionFreeMode: false

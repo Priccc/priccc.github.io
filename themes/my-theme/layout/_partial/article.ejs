@@ -42,11 +42,9 @@
 		</div>
 	<%} %>
 	</section>
-	<% if (post.comments && config.disqus_shortname){ %>
-		<section id="comments">
-			<div id="disqus_thread"></div>
-		</section>
-	<% } %>
+	<section id="comments">
+		<div id="gitalk-container"></div>
+	</section>
 </article>
 <script>
 	window.subData = {

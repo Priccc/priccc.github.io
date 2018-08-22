@@ -24,6 +24,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href='//cdn.bootcss.com/node-waves/0.7.5/waves.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -202,7 +204,7 @@
 <li style="list-style: none"><input type="checkbox" checked> 个人静态博客<blockquote>
 <p>基础搭建已完成，待优化项：</p>
 <ul>
-<li style="list-style: none"><input type="checkbox"> 添加评论功能</li>
+<li style="list-style: none"><input type="checkbox" checked> 添加评论功能</li>
 <li style="list-style: none"><input type="checkbox"> 关于页面编写</li>
 <li style="list-style: none"><input type="checkbox"> 持续优化…</li>
 </ul>
@@ -236,7 +238,7 @@
 
 <div class='header'>张磊</div>
 <div class='content'>
-  <div class='desc'>永远也不要丢失一颗挨折腾的心</div>
+  <div class='desc'>永远也不要丢失一颗爱折腾的心</div>
   <div class="links">
     
       
@@ -293,6 +295,20 @@
 
   <script>setLoadingBarProgress(80);</script>
   
+<script>
+  var gitalk = new Gitalk({
+    clientID: '6942be9c2926f995a7d9',
+    clientSecret: 'c3125cb716d410171a31b17aba7918c818e0f3e1',
+    repo: 'priccc.github.io',
+    owner: 'Priccc',
+    admin: ['Priccc'],
+    id: 'window.location.pathname',
+    distractionFreeMode: false
+  });
+    
+  gitalk.render('gitalk-container')
+</script>
+
 
 <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src='//cdn.bootcss.com/node-waves/0.7.5/waves.min.js'></script>
